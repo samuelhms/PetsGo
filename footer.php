@@ -1,23 +1,23 @@
 <?php wp_footer();?>
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+    <div id="contact" class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
         <div class="row pt-5">
             <div class="col-lg-4 col-md-12 mb-5">
-                <h1 class="mb-3 display-5 text-capitalize text-white"><span class="text-primary">Pet</span>Lover</h1>
+                <h1 class="mb-3 display-5 text-capitalize text-white"><span class="text-primary">Pet</span>Go</h1>
                 <p class="m-0">Ipsum amet sed vero et lorem stet eos ut, labore sed sed stet sea est ipsum ut. Volup amet ea sanct ipsum, dolore vero lorem no duo eirmod. Eirmod amet ipsum no ipsum lorem clita ut. Ut sed sit lorem ea lorem sed, amet stet sit sea ea diam tempor kasd kasd. Diam nonumy etsit tempor ut sed diam sed et ea</p>
             </div>
             <div class="col-lg-8 col-md-12">
                 <div class="row">
                     <div class="col-md-4 mb-5">
                         <h5 class="text-primary mb-4">Get In Touch</h5>
-                        <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                        <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>BH - Minas Gerais, BR</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>031 9 91342995</p>
+                        <p><i class="fa fa-envelope mr-2"></i>petsgo@petsgo.com</p>
                         <div class="d-flex justify-content-start mt-4">
-                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-instagram"></i></a>
+                        <a target="blank" class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="https://github.com/samuelhms"><i class="fab fa-github"></i></a>
+                            <a target="blank" class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="https://samuelhms.github.io/my-portfolio/"><i class="fab fa-font-awesome"></i></a>
+                            <a target="blank" class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="https://www.linkedin.com/in/samuelhmaciel/"><i class="fab fa-linkedin-in"></i></a>
+                            <a target="blank" class="btn btn-outline-primary rounded-circle text-center px-0" style="width: 36px; height: 36px;" href="https://api.whatsapp.com/send?phone=553191342995"><i class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
                     <div class="col-md-4 mb-5">
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-5">
-                        <h5 class="text-primary mb-4">Newsletter</h5>
+                        <h5 class="text-primary mb-4">Mande-nos um Email</h5>
                         <form action="">
                             <div class="form-group">
                                 <input type="text" class="form-control border-0" placeholder="Your Name" required="required" />
@@ -40,7 +40,7 @@
                                 <input type="email" class="form-control border-0" placeholder="Your Email" required="required" />
                             </div>
                             <div>
-                                <button class="btn btn-lg btn-primary btn-block border-0" type="submit">Submit Now</button>
+                                <button class="btn btn-lg btn-primary btn-block border-0" type="submit">Enviar Agora</button>
                             </div>
                         </form>
                     </div>
@@ -52,8 +52,8 @@
         <div class="row">
             <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
                 <p class="m-0 text-white">
-                    &copy; <a class="text-white font-weight-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed by
-                    <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+                    &copy; <a class="text-white font-weight-bold" href="#">PetsGo</a>. All Rights Reserved. Designed by
+                    <a class="text-white font-weight-bold" href="https://htmlcodex.com">Codex & Samuel</a>
                 </p>
             </div>
             <div class="col-md-6 text-center text-md-right">

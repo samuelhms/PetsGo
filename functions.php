@@ -32,13 +32,13 @@ body.login div#login p#backtoblog {}
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
 add_theme_support('title-tag');
-
+add_theme_support('post-thumbnails');
 #ocultar barra
 function OcultarBarra(){
     return false;
 }
 add_filter('show_admin_bar','OcultarBarra');
-
+add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption', 'style', 'script' ) );
 	
 add_theme_support('custom-logo', array(
        
@@ -52,8 +52,8 @@ add_theme_support('custom-logo', array(
 function pestgo_wp_styles(){
     wp_enqueue_style('style_css',get_stylesheet_uri());
     
-    wp_enqueue_style('stylemin_css',get_stylesheet_directory_uri() . '/assets/css/style.min.css');
+    wp_enqueue_style('stylemin_css',get_stylesheet_directory_uri() . '/assets/css/style.css');
     wp_enqueue_script('browser_js',get_template_directory_uri() . '/assets/js/main.js', array('jquery'),'',true);
-
+    
 }
 add_action( 'wp_enqueue_scripts', 'pestgo_wp_styles' );
