@@ -39,30 +39,15 @@
     <?php wp_head();?>
 </head>
 <body <?php body_class();?>>
-  <!-- Topbar Start -->
-  <div class="container-fluid">
-       
-        <div class="row py-3 px-lg-5">
-            <div class="col-lg-4">
-                <a href="" class="navbar-brand logoinicio">
-                <img class="logoPet" src="http://localhost/wp-content/uploads/2022/06/pet-shop-logo.png" alt="Image"> 
-                <h1 class="m-0 display-5 text-capitalize"><span class="text-primary">Pets</span>Go</h1>
-                </a>
-            </div>
-            <div class="col-lg-8 text-center text-lg-right">
-
-            </div>
-        </div>
-    </div>
-    <!-- Topbar End -->
-
-
     <!-- Navbar Start -->
     <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
-            <a href="" class="navbar-brand d-block d-lg-none">
-                <h1 class="m-0 display-5 text-capitalize font-italic text-white"><span class="text-primary">Pets</span>Go</h1>
-            </a>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5" id="navbarback">
+        <a href="" class="navbar-brand logoinicio">
+                <div class="logoPet">
+                    <?php the_custom_logo(); ?>
+                </div>
+                <h1 class="m-0 display-5 text-capitalize"><span class="text-primary">Pets</span>Go</h1>
+                </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>

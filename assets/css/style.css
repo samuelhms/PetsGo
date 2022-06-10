@@ -2747,7 +2747,7 @@ input[type="button"].btn-block {
   display: block;
   min-height: 1.5rem;
   padding-left: 1.5rem;
-  color-adjust: exact;
+  
 }
 
 .custom-control-inline {
@@ -6585,6 +6585,14 @@ button.bg-dark:focus {
   .float-lg-none {
     float: none !important;
   }
+  #navbarCollapse{
+    height: 40px;
+  }
+  #navbarback{
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -6597,6 +6605,7 @@ button.bg-dark:focus {
   .float-xl-none {
     float: none !important;
   }
+
 }
 
 .user-select-all {
@@ -9025,13 +9034,18 @@ h6 {
 }
 
 
-img.logoPet{
-  width: 50px;
+div.logoPet img{
+  width: 90px;
+  height: 90px;
 }
 .logoinicio{
+  padding-left: 0%;
   display: flex;
     flex-direction: row;
     align-content: space-around;
     justify-content: flex-start;
     align-items: center;
+}
+::-webkit-scrollbar {
+  display: none;
 }

@@ -277,6 +277,7 @@
                 <h1 class="display-4 m-0">O que nossos  <span class="text-primary">Clientes</span> sentem</h1>
             </div>
             <div class="owl-carousel testimonial-carousel">
+            <?php while (have_posts()): if(have_posts()): the_post(); ?>
                 <div class="bg-white mx-3 p-4">
                     <div class="d-flex align-items-end mb-3 mt-n4 ml-n4">
                         <img class="img-fluid" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;" alt="">
@@ -287,7 +288,9 @@
                     </div>
                     <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
                 </div>
-                <div class="bg-white mx-3 p-4">
+                <?php wp_reset_postdata();?>
+                <?php endif; endwhile;?>
+                <!-- <div class="bg-white mx-3 p-4">
                     <div class="d-flex align-items-end mb-3 mt-n4 ml-n4">
                         <img class="img-fluid" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;" alt="">
                         <div class="ml-3">
@@ -316,7 +319,7 @@
                         </div>
                     </div>
                     <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
